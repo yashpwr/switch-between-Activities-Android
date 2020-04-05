@@ -1,6 +1,5 @@
 package com.codedecode.yashpwr;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -8,7 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class SecondScreenActivity extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SecondScreenActivity extends AppCompatActivity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
